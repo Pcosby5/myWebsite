@@ -10,7 +10,7 @@ function Hero() {
       strings: ['Prince Eugene Ofosu', 'A Full Stack Developer', 'A Tech Enthusiast', 'A Problem Solver'],
       typeSpeed: 100, // Typing speed in milliseconds
       backSpeed: 50, // Backspacing speed
-      loop: true,    // Loop the typing effect
+      loop: true,    // Loop the typing effect boolean
     };
 
     // Initialize Typed.js on the reference element
