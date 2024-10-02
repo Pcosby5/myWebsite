@@ -8,7 +8,7 @@ function Hero() {
   useEffect(() => {
     const options = {
       strings: ['Prince Eugene Ofosu', 'A Full Stack Developer', 'A Tech Enthusiast', 'A Problem Solver'],
-      typeSpeed: 100, // Typing speed in milliseconds
+      typeSpeed: 100, // Typing speed in millisecond(s)
       backSpeed: 50, // Backspacing speed
       loop: true,    // Loop the typing effect boolean
     };
