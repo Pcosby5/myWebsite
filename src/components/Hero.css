@@ -1,0 +1,209 @@
+/* Hero section styling */
+.hero {
+  display: flex;
+  width: 100%;
+  height: 130vh;
+  max-width: 1200px;
+  background-color: var(--body-color);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+}
+
+/* Content is split into two parts */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* Left side for the image */
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.image {
+  width: 100%;
+  /* Make it responsive to the parent container */
+  max-width: 400px;
+  /* Limit the maximum width */
+  height: auto;
+  /* Adjust height automatically */
+  margin-top: 25px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px;
+}
+
+/* Right side for the text */
+.text-section {
+  flex: 1.2;
+  padding: 0 20px;
+}
+
+.hello {
+  margin-top: 30px;
+}
+
+/* Styling for the 'Heya, I'm' text */
+.hello p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.hero-name {
+  margin-bottom: 20px;
+}
+
+/* Name styling */
+.hero-name .typedText {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: cursive;
+  color: #23272a;
+}
+
+/* Additional info text styling */
+.hero-text-info p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Button container */
+.hero-text-btn {
+  margin-top: 40px;
+  display: flex;
+}
+
+
+/* Social icons container */
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 32px;
+
+}
+/* Items in the social icons container */
+/* .social-icons i{
+
+  font-size: 2.5rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+} */
+
+
+.social-icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--icon-color);
+  border-radius: 50%;
+  box-shadow: 0px 1px 5px 3px #76527a;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .image {
+    max-width: 300px;
+    /* Reduce the image size on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image {
+    max-width: 200px;
+    /* Further reduce for mobile screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Each icon will have this class */
+/* .icon {
+  margin-right: 15px;
+  position: relative;
+  animation: iconSlide 4s infinite ease-in-out;
+} */
+/*
+.icon_circle {
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/*
+.icon_circle i {
+  color: #fff;
+  font-size: 1.5rem;
+} */
+
+/*
+@keyframes iconSlide {
+    25% {
+        border: 2px solid #e6d12e;
+        left: 0px;
+    }
+
+    50% {
+        border: 2px solid #c40101;
+        left: 70px;
+    }
+
+    75% {
+        border: 2px solid #8749f2;
+        left: 145px;
+    }
+
+    100% {
+        border: 2px solid #47ea15;
+        left: 216px;
+    }
+} */
