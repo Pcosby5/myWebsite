@@ -1,0 +1,181 @@
+/* .about-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+    background-color: var(--box-color);
+    margin: 20px;
+} */
+
+
+.about-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 35px;
+    padding-block: 45px 45px;
+    border: 2px solid #fff;
+    background: transparent;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow);
+    border-radius: 20px;
+
+
+}
+
+.about-me * {
+    -webktit-box-size: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    top: -35px;
+
+}
+
+.about-info figcaption {
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    /* margin-bottom: 60px; */
+}
+
+.about-info p {
+    margin-bottom: 20px;
+}
+
+.about-me .profile {
+    border-radius: 100%;
+    position: absolute;
+    /* bottom: 100%; */
+    left: -20px;
+    z-index: 1;
+    background-color: #fff;
+    max-width: 80px;
+    max-height: 180px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.about-me p {
+    color: var(--text-color);
+    margin-top: 10px;
+
+}
+
+.about-info .about-me-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #8749f2;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    margin: 4px;
+}
+
+
+.skills {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* height: 100%; */
+    /* max-height: 600px; */
+    border: 2px solid #fff;
+    background: transparent;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow);
+    border-radius: 20px;
+    /* margin: 20px; */
+    padding: 10px 20px;
+
+}
+
+.skills .skill-box {
+    width: 100%;
+    margin: 25px 0;
+
+}
+
+.skill-box .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.skill-box .skill-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.skill-box .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background: #8749f2;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+
+}
+
+.skill-per.html {
+    animation-delay: 0.1s;
+    width: 90%;
+}
+
+.skill-per.python {
+    animation-delay: 0.1s;
+    width: 85%;
+}
+
+.skill-per.js {
+    animation-delay: 0.1s;
+    width: 80%;
+}
+
+.skill-per.css {
+    animation-delay: 0.1s;
+    width: 75%;
+}
+
+.skill-per.git {
+    animation-delay: 0.1s;
+    width: 95%;
+}
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.skill-per .tool-tip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 20px;
+    background: #8749f2;
+    z-index: 1;
+
+}
+
