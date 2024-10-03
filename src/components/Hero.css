@@ -2,7 +2,7 @@
 .hero {
   display: flex;
   width: 100%;
-  height: 130vh;
+  height: 105vh;
   max-width: 1200px;
   background-color: var(--body-color);
   padding: 40px;
@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 30px;
+  /* margin-top: 0.5px; */
 }
 
 /* Left side for the image */
@@ -91,14 +91,12 @@
   display: flex;
 }
 
-
 /* Social icons container */
 .social-icons {
   display: flex;
   align-items: center;
   margin-top: 50px;
   gap: 32px;
-
 }
 /* Items in the social icons container */
 /* .social-icons i{
@@ -109,7 +107,6 @@
   cursor: pointer;
 
 } */
-
 
 .social-icons .icon {
   display: flex;
@@ -122,10 +119,6 @@
   box-shadow: 0px 1px 5px 3px #76527a;
   cursor: pointer;
 }
-
-
-
-
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -141,27 +134,6 @@
     /* Further reduce for mobile screens */
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Each icon will have this class */
 /* .icon {
